@@ -1,0 +1,44 @@
+{
+  "epgRepository": "https://github.com/iptv-org/epg.git",
+  "days": 2,
+  "timeout": 30000,
+  "sources": [
+    {
+      "id": "mi",
+      "channels": "pipeline/real/channels-mi.xml",
+      "output": "guide-mi.xml",
+      "required": true
+    },
+    {
+      "id": "gatotv",
+      "channels": "pipeline/real/channels-gatotv.xml",
+      "output": "guide-gatotv.xml",
+      "required": true
+    },
+    {
+      "id": "imjh",
+      "channels": "pipeline/real/channels-imjh.xml",
+      "output": "guide-imjh.xml",
+      "required": true
+    },
+    {
+      "id": "teleboy",
+      "channels": "pipeline/real/channels-teleboy.xml",
+      "output": "guide-teleboy.xml",
+      "required": true
+    },
+    {
+      "id": "extra",
+      "channels": "pipeline/real/channels-extra.xml",
+      "output": "guide-extra.xml",
+      "required": true
+    },
+    {
+      "id": "cinepride",
+      "channels": "pipeline/real/channels-cinepride.xml",
+      "output": "guide-cinepride.xml",
+      "required": false
+    }
+  ],
+  "m3u": "https://raw.githubusercontent.com/robinpalat/streams/refs/heads/main/streams.m3u"
+}

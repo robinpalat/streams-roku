@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="A.us@SD" tvg-name="Alpha" tvg-logo="https://example.invalid/a.png" group-title="News",Alpha (1080p)
+https://example.invalid/a.m3u8
+#EXTINF:-1 tvg-id="B.us@SD" tvg-name="Beta" group-title="News",Beta
+https://example.invalid/b.m3u8
+#EXTINF:-1 tvg-id="C.us@SD" tvg-name="Gamma" tvg-logo="https://example.invalid/c.png" group-title="Movies",Gamma
+https://example.invalid/c1.m3u8
+#EXTINF:-1 tvg-id="C.us@SD" tvg-name="Gamma" tvg-logo="https://example.invalid/c.png" group-title="Movies",Gamma Backup
+https://example.invalid/c2.m3u8
+#EXTINF:-1,Delta
+https://example.invalid/d.m3u8
+#EXTINF:-1 tvg-id="E.us@SD" tvg-name="Echo" tvg-logo="https://example.invalid/e.png" group-title="Sports",Echo
+https://example.invalid/e.m3u8
+#EXTINF:-1 tvg-id="F.us@SD" tvg-name="Foxtrot" group-title="Kids",Foxtrot
+rtsp://example.invalid/f

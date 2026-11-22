@@ -1,0 +1,502 @@
+[
+ {
+  "channel": "13C.cl",
+  "feed": null,
+  "in_use": false,
+  "tags": [],
+  "width": 250,
+  "height": 110,
+  "format": "PNG",
+  "url": "https://i.imgur.com/Zfe2f5j.png"
+ },
+ {
+  "channel": "24Horas.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [
+   "color"
+  ],
+  "width": 512,
+  "height": 241,
+  "format": "PNG",
+  "url": "https://i.ibb.co/21sXZ3GT/24h.png"
+ },
+ {
+  "channel": "AMCSeriesLatinAmerica.us",
+  "feed": null,
+  "in_use": false,
+  "tags": [],
+  "width": 108,
+  "height": 91,
+  "format": "PNG",
+  "url": "https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png"
+ },
+ {
+  "channel": "AmericaTV.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 500,
+  "height": 525,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"
+ },
+ {
+  "channel": "AuroraMediaFilms.gt",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "url": "https://i.imgur.com/DVC5w6H.png"
+ },
+ {
+  "channel": "BBCDrama.uk",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 225,
+  "height": 123,
+  "format": "PNG",
+  "url": "https://i.imgur.com/HctHhLL.png"
+ },
+ {
+  "channel": "BioBioTV.cl",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 61,
+  "height": 50,
+  "format": "PNG",
+  "url": "https://i.imgur.com/lhglEUP.png"
+ },
+ {
+  "channel": "BobEsponja.de",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 351,
+  "height": 216,
+  "format": "PNG",
+  "url": "https://i.imgur.com/nmZ2nId.png"
+ },
+ {
+  "channel": "BobEsponja.de",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 576,
+  "height": 288,
+  "format": "PNG",
+  "url": "https://images.pluto.tv/channels/5f1aca0b4e448e00075e7c5e/colorLogoPNG.png"
+ },
+ {
+  "channel": "BobEsponja.de",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 576,
+  "height": 288,
+  "format": "SVG",
+  "url": "https://images.pluto.tv/channels/5f1aca0b4e448e00075e7c5e/colorLogoSVG.svg"
+ },
+ {
+  "channel": "BobEsponjaPantalonesCuadrados.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 576,
+  "height": 288,
+  "format": "PNG",
+  "url": "https://images.pluto.tv/channels/6254598f5083f800076d8563/colorLogoPNG_1781042617821.png"
+ },
+ {
+  "channel": "BobEsponjaPantalonesCuadrados.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 576,
+  "height": 288,
+  "format": "SVG",
+  "url": "https://images.pluto.tv/channels/6254598f5083f800076d8563/colorLogoSVG_1781042617821.svg"
+ },
+ {
+  "channel": "CBNEspanol.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [
+   "transparent"
+  ],
+  "width": 493,
+  "height": 196,
+  "format": "PNG",
+  "url": "https://i.imgur.com/G7B4wSM.png"
+ },
+ {
+  "channel": "CDMInternacional.pr",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 426,
+  "format": "PNG",
+  "url": "https://i.imgur.com/N7IneVk.png"
+ },
+ {
+  "channel": "CeltaTV.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 219,
+  "height": 66,
+  "format": "PNG",
+  "url": "https://i.imgur.com/rwoIF4w.png"
+ },
+ {
+  "channel": "CHTV.hn",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 124,
+  "height": 59,
+  "format": "PNG",
+  "url": "https://i.imgur.com/QLQgwc6.png"
+ },
+ {
+  "channel": "Cinecanal.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 960,
+  "height": 518,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png"
+ },
+ {
+  "channel": "CineFriki.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 500,
+  "height": 500,
+  "format": "PNG",
+  "url": "https://i.imgur.com/b3Ospym.png"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 1928,
+  "height": 877,
+  "format": "PNG",
+  "url": "https://i.ibb.co/Kp7m2G19/IMG-2477.png"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 231,
+  "height": 104,
+  "format": "SVG",
+  "url": "https://static.hbo.com/2025-09/Cinemax_Hits_Plex_Logo_bw.svg"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 960,
+  "height": 444,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Cinemax_Hits_Logo.png/960px-Cinemax_Hits_Logo.png"
+ },
+ {
+  "channel": "CinePride.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 510,
+  "height": 76,
+  "format": "PNG",
+  "url": "https://i.imgur.com/Y4Wgq8I.png"
+ },
+ {
+  "channel": "CinevisionCanal19.do",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 392,
+  "height": 353,
+  "format": "PNG",
+  "url": "https://i.imgur.com/mJN2XNm.png"
+ },
+ {
+  "channel": "CineWestern.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 218,
+  "format": "PNG",
+  "url": "https://i.imgur.com/2UROzSc.png"
+ },
+ {
+  "channel": "CosmosTv.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 576,
+  "height": 419,
+  "format": "WebP",
+  "url": "https://cdn4.fmcosmos.com/s4/2025/11/03/fmcosmos/images/15/92/159284_a18e887e336fef3bc6b188314a173ce10cbe5157966e839517e2b0428d7aed46/xs.webp"
+ },
+ {
+  "channel": "CosmosTv.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 300,
+  "height": 231,
+  "format": "PNG",
+  "url": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png"
+ },
+ {
+  "channel": "CrimenHistoria.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 576,
+  "height": 288,
+  "format": "PNG",
+  "url": "https://images.pluto.tv/channels/64ddcbb14c5ed80008fad416/colorLogoPNG.png"
+ },
+ {
+  "channel": "Cultura24.pe",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "url": "https://i.imgur.com/h0LxXsx.png"
+ },
+ {
+  "channel": "DW.de",
+  "feed": "KBDITV",
+  "in_use": true,
+  "tags": [],
+  "width": 508,
+  "height": 291,
+  "format": "PNG",
+  "url": "https://i.imgur.com/MNKkgfa.png"
+ },
+ {
+  "channel": "DW.de",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 293,
+  "format": "PNG",
+  "url": "https://i.imgur.com/8MRNFb9.png"
+ },
+ {
+  "channel": "DW.de",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 376,
+  "height": 288,
+  "format": "PNG",
+  "url": "https://jiotvimages.cdn.jio.com/dare_images/images/dw.png"
+ },
+ {
+  "channel": "DW.de",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 960,
+  "height": 553,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/960px-Deutsche_Welle_symbol_2012.svg.png"
+ },
+ {
+  "channel": "DW.de",
+  "feed": "WORATV",
+  "in_use": true,
+  "tags": [],
+  "width": 131,
+  "height": 74,
+  "format": "PNG",
+  "url": "https://i.imgur.com/2CMfAlD.png"
+ },
+ {
+  "channel": "Eurochannel.uk",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 153,
+  "format": "PNG",
+  "url": "https://i.imgur.com/yXAtmI6.png"
+ },
+ {
+  "channel": "HBO2LatinAmerica.us",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 960,
+  "height": 291,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png"
+ },
+ {
+  "channel": "Historia.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 478,
+  "format": "PNG",
+  "url": "https://i.imgur.com/VUy8xIG.png"
+ },
+ {
+  "channel": "LoveNature.ca",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 1000,
+  "height": 396,
+  "format": "PNG",
+  "url": "https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png"
+ },
+ {
+  "channel": "Mega.cl",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 364,
+  "format": "PNG",
+  "url": "https://i.imgur.com/RlZfR84.png"
+ },
+ {
+  "channel": "SonyChannel.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 960,
+  "height": 960,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png"
+ },
+ {
+  "channel": "Space.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 960,
+  "height": 219,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png"
+ },
+ {
+  "channel": "StingrayClassica.ca",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 512,
+  "height": 128,
+  "format": "PNG",
+  "url": "https://i.imgur.com/nh1k5RC.png"
+ },
+ {
+  "channel": "TVEInternacionalEurope.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [
+   "color"
+  ],
+  "width": 512,
+  "height": 317,
+  "format": "PNG",
+  "url": "https://i.ibb.co/RpKLCMvp/tve.png"
+ },
+ {
+  "channel": "TVEInternacionalEurope.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [
+   "color"
+  ],
+  "width": 839,
+  "height": 519,
+  "format": "SVG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/TVE.svg"
+ },
+ {
+  "channel": "TVEInternacionalEurope.es",
+  "feed": null,
+  "in_use": true,
+  "tags": [
+   "color"
+  ],
+  "width": 960,
+  "height": 594,
+  "format": "PNG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/TVE.svg/960px-TVE.svg.png"
+ },
+ {
+  "channel": "UTV.cl",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 484,
+  "height": 512,
+  "format": "PNG",
+  "url": "https://i.imgur.com/ZJNSpfZ.png"
+ },
+ {
+  "channel": "XtremaAccion.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 300,
+  "height": 150,
+  "format": "PNG",
+  "url": "https://i.imgur.com/z5NwizH.png"
+ },
+ {
+  "channel": "XtremaCartoons.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 300,
+  "height": 150,
+  "format": "PNG",
+  "url": "https://i.imgur.com/X2d8y4e.png"
+ },
+ {
+  "channel": "XtremaCineClasico.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 300,
+  "height": 150,
+  "format": "PNG",
+  "url": "https://i.imgur.com/j91M4Yf.png"
+ },
+ {
+  "channel": "XtremaTerror.ar",
+  "feed": null,
+  "in_use": true,
+  "tags": [],
+  "width": 300,
+  "height": 150,
+  "format": "PNG",
+  "url": "https://i.imgur.com/FcaTUym.png"
+ }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PlaylistTask" extends="Task">
+    <interface>
+        <field id="url" type="string" />
+        <field id="cacheKey" type="string" />
+        <field id="mode" type="string" value="load" />
+        <field id="force" type="boolean" value="false" />
+        <field id="result" type="assocarray" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/source/app_config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/util.brs" />
+    <script type="text/brightscript" uri="pkg:/source/m3u_parser.brs" />
+    <script type="text/brightscript" uri="pkg:/source/m3u_update.brs" />
+    <script type="text/brightscript" uri="pkg:/components/PlaylistTask.brs" />
+</component>

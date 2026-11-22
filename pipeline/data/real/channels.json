@@ -1,0 +1,667 @@
+[
+ {
+  "id": "13C.cl",
+  "name": "13C",
+  "alt_names": [
+   "13C",
+   "Canal 13 Cable",
+   "13 Cable",
+   " 13 Cultura"
+  ],
+  "network": "13Go",
+  "owners": [
+   "Grupo Luksic"
+  ],
+  "country": "CL",
+  "categories": [
+   "culture"
+  ],
+  "is_nsfw": false,
+  "launched": "1995-07-15",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.13.cl/c"
+ },
+ {
+  "id": "24Horas.es",
+  "name": "24 Horas",
+  "alt_names": [
+   "Canal 24 Horas",
+   "24h"
+  ],
+  "network": "TVE",
+  "owners": [
+   "RTVE SA"
+  ],
+  "country": "ES",
+  "categories": [
+   "news",
+   "public"
+  ],
+  "is_nsfw": false,
+  "launched": "1997-09-15",
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://www.rtve.es/alacarta/tve/24-horas/"
+ },
+ {
+  "id": "AMCSeriesLatinAmerica.us",
+  "name": "AMC Series Latin America",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "AMC Global Media"
+  ],
+  "country": "US",
+  "categories": [
+   "series"
+  ],
+  "is_nsfw": false,
+  "launched": "2025-11-01",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.amcseries.com/"
+ },
+ {
+  "id": "AmericaTV.ar",
+  "name": "America TV",
+  "alt_names": [
+   "América TV"
+  ],
+  "network": "Grupo America",
+  "owners": [],
+  "country": "AR",
+  "categories": [
+   "general"
+  ],
+  "is_nsfw": false,
+  "launched": "1996-06-25",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.americatv.com.ar/"
+ },
+ {
+  "id": "AuroraMediaFilms.gt",
+  "name": "Aurora Media Films",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "GT",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.playgt.net/auroramediafilms"
+ },
+ {
+  "id": "BBCDrama.uk",
+  "name": "BBC Drama",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "UK",
+  "categories": [
+   "series"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://pluto.tv/en/live-tv/bbc-drama-es"
+ },
+ {
+  "id": "BioBioTV.cl",
+  "name": "Bio Bio TV",
+  "alt_names": [
+   "Bío Bío TV"
+  ],
+  "network": null,
+  "owners": [],
+  "country": "CL",
+  "categories": [
+   "general"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.biobiochile.cl/biobiotv/"
+ },
+ {
+  "id": "BobEsponja.de",
+  "name": "Bob Esponja",
+  "alt_names": [
+   "Nickelodeon Bob Esponja"
+  ],
+  "network": "Pluto TV",
+  "owners": [
+   "Viacom International Inc.",
+   "Pluto TV Europe GmbH",
+   "Paramount Skydance Corporation"
+  ],
+  "country": "DE",
+  "categories": [
+   "kids"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://pluto.tv/live-tv/bob-esponja-es/details"
+ },
+ {
+  "id": "BobEsponjaPantalonesCuadrados.us",
+  "name": "Bob Esponja Pantalones Cuadrados",
+  "alt_names": [
+   "Nickelodeon Bob Esponja Pantalones Cuadrados"
+  ],
+  "network": "Pluto TV",
+  "owners": [
+   "Viacom International Inc.",
+   "Pluto Inc.",
+   "Paramount Skydance Corporation"
+  ],
+  "country": "US",
+  "categories": [
+   "kids"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://pluto.tv/live-tv/bob-esponja-pantalones-quadrados1/details"
+ },
+ {
+  "id": "CBNEspanol.us",
+  "name": "CBN Espanol",
+  "alt_names": [
+   "CBN Español"
+  ],
+  "network": null,
+  "owners": [
+   "Christian Broadcasting Network"
+  ],
+  "country": "US",
+  "categories": [
+   "religious"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www1.cbn.com/tv/cbn-espanol"
+ },
+ {
+  "id": "CDMInternacional.pr",
+  "name": "CDM Internacional",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Asociacion Evangelistica Cristo Viene"
+  ],
+  "country": "PR",
+  "categories": [
+   "religious"
+  ],
+  "is_nsfw": false,
+  "launched": "1988-04-29",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://cdminternacional.com/"
+ },
+ {
+  "id": "CeltaTV.ar",
+  "name": "Celta TV",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "AR",
+  "categories": [],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.celtatv.com.ar/canal-local.php"
+ },
+ {
+  "id": "CHTV.hn",
+  "name": "CHTV",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "HN",
+  "categories": [
+   "general"
+  ],
+  "is_nsfw": false,
+  "launched": "2013-06-10",
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://chtv.hn/"
+ },
+ {
+  "id": "Cinecanal.us",
+  "name": "Cinecanal",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "The Walt Disney Company Latin America"
+  ],
+  "country": "US",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": "1993-04-01",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://foxplay.com/ar/brandingchannel/98d445b15e5f4d3ab92fdc1e84bbc45e"
+ },
+ {
+  "id": "CineFriki.es",
+  "name": "Cine Friki",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Zylo"
+  ],
+  "country": "ES",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.cinefriki.es/"
+ },
+ {
+  "id": "CinemaxHits.us",
+  "name": "Cinemax Hits",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Skydance Corporation"
+  ],
+  "country": "US",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": "2025-09-04",
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://www.cinemax.com/"
+ },
+ {
+  "id": "CinePride.us",
+  "name": "CinePride",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "US",
+  "categories": [
+   "lifestyle"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://watch.plex.tv/live-tv/channel/cinepride-2"
+ },
+ {
+  "id": "CinevisionCanal19.do",
+  "name": "Cinevision Canal 19",
+  "alt_names": [
+   "Cinevisión Canal 19"
+  ],
+  "network": null,
+  "owners": [],
+  "country": "DO",
+  "categories": [
+   "general"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://www.canal19.do/"
+ },
+ {
+  "id": "CineWestern.es",
+  "name": "Cine Western",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Zylo"
+  ],
+  "country": "ES",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://www.cinewestern.es/"
+ },
+ {
+  "id": "CosmosTv.ar",
+  "name": "Cosmos Tv",
+  "alt_names": [
+   "Cosmos Tv y Radio online"
+  ],
+  "network": null,
+  "owners": [
+   "ediz@r producciones"
+  ],
+  "country": "AR",
+  "categories": [
+   "movies",
+   "news"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://fmcosmos.com/"
+ },
+ {
+  "id": "CrimenHistoria.es",
+  "name": "Crimen & Historia",
+  "alt_names": [
+   "Crimen Y Historia"
+  ],
+  "network": "Love Crime & History",
+  "owners": [
+   "Love TV Channels S.L."
+  ],
+  "country": "ES",
+  "categories": [
+   "documentary"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://lovetvchannels.com/en/our-channels/#crime"
+ },
+ {
+  "id": "Cultura24.pe",
+  "name": "Cultura 24",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "PE",
+  "categories": [
+   "culture"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://cultura24.tv/"
+ },
+ {
+  "id": "DW.de",
+  "name": "DW",
+  "alt_names": [
+   "Deutsche Welle"
+  ],
+  "network": null,
+  "owners": [
+   "Federal Government of Germany"
+  ],
+  "country": "DE",
+  "categories": [
+   "news"
+  ],
+  "is_nsfw": false,
+  "launched": "1953-05-03",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.dw.com/"
+ },
+ {
+  "id": "Eurochannel.uk",
+  "name": "Eurochannel",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "UK",
+  "categories": [
+   "general"
+  ],
+  "is_nsfw": false,
+  "launched": "1994-01-01",
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://www.eurochannel.com/"
+ },
+ {
+  "id": "HBO2LatinAmerica.us",
+  "name": "HBO 2 Latin America",
+  "alt_names": [],
+  "network": "HBO",
+  "owners": [
+   "Skydance Corporation"
+  ],
+  "country": "US",
+  "categories": [
+   "movies",
+   "series"
+  ],
+  "is_nsfw": false,
+  "launched": "2010-06-01",
+  "closed": null,
+  "replaced_by": null,
+  "website": "http://www.hbolatam.com/"
+ },
+ {
+  "id": "Historia.es",
+  "name": "Historia",
+  "alt_names": [
+   "História"
+  ],
+  "network": null,
+  "owners": [
+   "AMC Networks Inc."
+  ],
+  "country": "ES",
+  "categories": [
+   "entertainment"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://tuamc.tv/canal-historia/"
+ },
+ {
+  "id": "LoveNature.ca",
+  "name": "Love Nature",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Blue Ant Media"
+  ],
+  "country": "CA",
+  "categories": [
+   "outdoor"
+  ],
+  "is_nsfw": false,
+  "launched": "2006-03-12",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://tv.lovenature.com/"
+ },
+ {
+  "id": "Mega.cl",
+  "name": "Mega",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Mega Media"
+  ],
+  "country": "CL",
+  "categories": [
+   "general"
+  ],
+  "is_nsfw": false,
+  "launched": "1990-10-23",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.mega.cl/"
+ },
+ {
+  "id": "SonyChannel.ar",
+  "name": "Sony Channel",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "AR",
+  "categories": [],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://la.sonychannel.com/"
+ },
+ {
+  "id": "Space.ar",
+  "name": "Space",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Skydance Corporation"
+  ],
+  "country": "AR",
+  "categories": [],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://canalspacela.com/"
+ },
+ {
+  "id": "StingrayClassica.ca",
+  "name": "Stingray Classica",
+  "alt_names": [],
+  "network": null,
+  "owners": [
+   "Stingray Group Inc."
+  ],
+  "country": "CA",
+  "categories": [
+   "music"
+  ],
+  "is_nsfw": false,
+  "launched": "1995-01-01",
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://classica.stingray.com/"
+ },
+ {
+  "id": "TVEInternacionalEurope.es",
+  "name": "TVE Internacional Europe",
+  "alt_names": [],
+  "network": "TVE",
+  "owners": [
+   "RTVE"
+  ],
+  "country": "ES",
+  "categories": [],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.rtve.es/play/tve-internacional/"
+ },
+ {
+  "id": "UTV.cl",
+  "name": "UTV",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "CL",
+  "categories": [],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://www.utv.cl/"
+ },
+ {
+  "id": "XtremaAccion.ar",
+  "name": "Xtrema Accion",
+  "alt_names": [
+   "Xtrema Acción"
+  ],
+  "network": null,
+  "owners": [],
+  "country": "AR",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": null
+ },
+ {
+  "id": "XtremaCartoons.ar",
+  "name": "Xtrema Cartoons",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "AR",
+  "categories": [
+   "animation",
+   "kids"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://xtrematv.com/"
+ },
+ {
+  "id": "XtremaCineClasico.ar",
+  "name": "Xtrema Cine Clasico",
+  "alt_names": [
+   "Xtrema Cine Clásico"
+  ],
+  "network": null,
+  "owners": [],
+  "country": "AR",
+  "categories": [
+   "movies",
+   "classic"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": null
+ },
+ {
+  "id": "XtremaTerror.ar",
+  "name": "Xtrema Terror",
+  "alt_names": [],
+  "network": null,
+  "owners": [],
+  "country": "AR",
+  "categories": [
+   "movies"
+  ],
+  "is_nsfw": false,
+  "launched": null,
+  "closed": null,
+  "replaced_by": null,
+  "website": "https://xtrematv.com/?p=1456"
+ }
+]

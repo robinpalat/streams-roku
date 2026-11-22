@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="EpgGrid" extends="Group">
+    <interface>
+        <field id="channels" type="array" onChange="onDataChanged" />
+        <field id="catalog" type="assocarray" onChange="onDataChanged" />
+        <field id="epg" type="assocarray" onChange="onDataChanged" />
+        <field id="startChannelId" type="string" onChange="onDataChanged" />
+        <field id="close" type="boolean" />
+        <field id="playRequest" type="assocarray" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/source/app_config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/util.brs" />
+    <script type="text/brightscript" uri="pkg:/source/catalog.brs" />
+    <script type="text/brightscript" uri="pkg:/source/epg.brs" />
+    <script type="text/brightscript" uri="pkg:/source/logo_geometry.brs" />
+    <script type="text/brightscript" uri="pkg:/components/EpgGrid.brs" />
+    <children>
+        <Rectangle id="bg" translation="[0,0]" width="1280" height="720" color="0x0A1419FF" />
+        <Rectangle id="headerBg" translation="[0,0]" width="1280" height="82" color="0x0C1A1FFF" />
+        <Label id="title" translation="[30,14]" width="480" height="34" color="0xEAF3F2FF" font="font:MediumSystemFont" text="Guía de programación" />
+        <Rectangle id="titleAccent" translation="[30,51]" width="30" height="2" color="0x4F918AFF" />
+        <Label id="range" translation="[520,22]" width="728" height="24" color="0x7C9497FF" font="font:SmallSystemFont" horizAlign="right" />
+        <Rectangle id="headerDivider" translation="[20,82]" width="1240" height="1" color="0x1A3036FF" />
+        <Group id="gridLayer" translation="[0,0]" />
+        <Group id="timeLayer" translation="[0,0]" />
+        <Group id="nowLayer" translation="[0,0]" />
+        <Rectangle id="detailRule" translation="[20,548]" width="1240" height="1" color="0x1B343AFF" />
+        <Rectangle id="detailBg" translation="[20,550]" width="1240" height="120" color="0x0E2026FF" />
+        <Label id="detailChannel" translation="[36,560]" width="390" height="20" color="0x7E9699FF" font="font:SmallSystemFont" />
+        <Label id="detailTitle" translation="[36,580]" width="390" height="44" color="0xF0F7F6FF" font="font:MediumSystemFont" wrap="true" />
+        <Label id="detailTime" translation="[36,628]" width="390" height="18" color="0x8AA2A4FF" font="font:SmallSystemFont" />
+        <Label id="detailDesc" translation="[450,560]" width="790" height="78" color="0xB9C9C9FF" font="font:SmallSystemFont" wrap="true" />
+        <Label id="detailNote" translation="[36,650]" width="1180" height="16" color="0x8FD3C7FF" font="font:SmallestSystemFont" />
+        <Label id="help" translation="[30,682]" width="1220" height="18" color="0x6E8588FF" font="font:SmallestSystemFont" text="Up/Down  canal     Left/Right  programa     OK  detalles     Back  volver" />
+        <Timer id="clockTimer" repeat="true" duration="30" />
+    </children>
+</component>

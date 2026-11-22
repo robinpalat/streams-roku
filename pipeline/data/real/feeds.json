@@ -1,0 +1,1306 @@
+[
+ {
+  "channel": "13C.cl",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CL"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "24Horas.es",
+  "id": "HEVC",
+  "name": "HEVC",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/ES",
+   "c/AD",
+   "r/AMER",
+   "r/ASIA",
+   "r/EUR",
+   "r/AFR",
+   "r/OCE"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "1080p"
+ },
+ {
+  "channel": "24Horas.es",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES",
+   "c/AD",
+   "r/AMER",
+   "r/ASIA",
+   "r/EUR",
+   "r/AFR",
+   "r/OCE"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "AMCSeriesLatinAmerica.us",
+  "id": "Brazil",
+  "name": "Brazil",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/BR"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "por"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "AMCSeriesLatinAmerica.us",
+  "id": "Panregional",
+  "name": "Panregional",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR",
+   "c/PY",
+   "c/UY"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "AmericaTV.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "AuroraMediaFilms.gt",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/GT"
+  ],
+  "timezones": [
+   "America/Guatemala"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "BBCDrama.uk",
+  "id": "France",
+  "name": "France",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/FR"
+  ],
+  "timezones": [
+   "Europe/Paris"
+  ],
+  "languages": [
+   "fra"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "BBCDrama.uk",
+  "id": "Spain",
+  "name": "Spain",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "BBCDrama.uk",
+  "id": "US",
+  "name": "US",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "1080p"
+ },
+ {
+  "channel": "BioBioTV.cl",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CL"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "BobEsponja.de",
+  "id": "ES",
+  "name": "ES",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "720p"
+ },
+ {
+  "channel": "BobEsponjaPantalonesCuadrados.us",
+  "id": "LatAm",
+  "name": "LatAm",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "r/LATAM"
+  ],
+  "timezones": [
+   "America/Los_Angeles"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "720p"
+ },
+ {
+  "channel": "CBNEspanol.us",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "CDMInternacional.pr",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/PR"
+  ],
+  "timezones": [
+   "America/Puerto_Rico"
+  ],
+  "languages": [
+   "spa",
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "CeltaTV.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "ct/AROYO"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "CHTV.hn",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/HN"
+  ],
+  "timezones": [
+   "America/Tegucigalpa"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Cinecanal.us",
+  "id": "Brazil",
+  "name": "Brazil",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/BR"
+  ],
+  "timezones": [
+   "America/Asuncion"
+  ],
+  "languages": [
+   "spa",
+   "por",
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Cinecanal.us",
+  "id": "Mexico",
+  "name": "Mexico",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/MX"
+  ],
+  "timezones": [
+   "America/Mexico_City"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Cinecanal.us",
+  "id": "Pacific",
+  "name": "Pacific",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CL",
+   "c/PE",
+   "c/BO"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Cinecanal.us",
+  "id": "Panregional",
+  "name": "Panregional",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CO",
+   "c/PA",
+   "c/EC",
+   "c/VE",
+   "r/CENAMER",
+   "r/CARIB"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Cinecanal.us",
+  "id": "South",
+  "name": "South",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/AR",
+   "c/PY",
+   "c/UY"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "CineFriki.es",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "id": "East",
+  "name": "East",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "eng",
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "id": "EastHD",
+  "name": "East HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "eng",
+   "spa"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "id": "West",
+  "name": "West",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/Los_Angeles"
+  ],
+  "languages": [
+   "eng",
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "CinemaxHits.us",
+  "id": "WestHD",
+  "name": "West HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/Los_Angeles"
+  ],
+  "languages": [
+   "eng",
+   "spa"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "CinePride.us",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/US"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "CinevisionCanal19.do",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/DO"
+  ],
+  "timezones": [
+   "America/Santo_Domingo"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "CineWestern.es",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Paris"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "CosmosTv.ar",
+  "id": "HD",
+  "name": "HD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "1080p"
+ },
+ {
+  "channel": "CosmosTv.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "s/AR-J"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "CrimenHistoria.es",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "1080p"
+ },
+ {
+  "channel": "Cultura24.pe",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/PE"
+  ],
+  "timezones": [
+   "America/Lima"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "Arabic",
+  "name": "Arabic",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "r/ARAB"
+  ],
+  "timezones": [
+   "Europe/Berlin"
+  ],
+  "languages": [
+   "ara"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "Deutsch",
+  "name": "Deutsch",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/DE",
+   "c/AT",
+   "c/BE",
+   "c/LI",
+   "c/LU",
+   "c/CH"
+  ],
+  "timezones": [
+   "Europe/Berlin"
+  ],
+  "languages": [
+   "deu"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "DeutschPlus",
+  "name": "Deutsch+",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/DE",
+   "c/AT",
+   "c/BE",
+   "c/LI",
+   "c/LU",
+   "c/CH"
+  ],
+  "timezones": [
+   "Europe/Berlin"
+  ],
+  "languages": [
+   "deu"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "English",
+  "name": "English",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "r/EMEA",
+   "r/ASIA"
+  ],
+  "timezones": [
+   "Europe/Berlin"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "Espanol",
+  "name": "Espanol",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "r/HISPAM"
+  ],
+  "timezones": [
+   "Europe/Berlin"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "KBDITV",
+  "name": "KBDI-TV",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "ct/USBJC"
+  ],
+  "timezones": [
+   "America/Denver"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "KPJK",
+  "name": "KPJK",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "ct/USSXF"
+  ],
+  "timezones": [
+   "America/Los_Angeles"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "KSMQTV",
+  "name": "KSMQ-TV",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "ct/USAUM"
+  ],
+  "timezones": [
+   "America/Chicago"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "Russian",
+  "name": "Russian",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/DE"
+  ],
+  "timezones": [
+   "Europe/Berlin"
+  ],
+  "languages": [
+   "rus"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "WDSCTV",
+  "name": "WDSC-TV",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "ct/USNSB"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "DW.de",
+  "id": "WORATV",
+  "name": "WORA-TV",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/PR"
+  ],
+  "timezones": [
+   "America/Puerto_Rico"
+  ],
+  "languages": [
+   "eng",
+   "spa"
+  ],
+  "format": "720p"
+ },
+ {
+  "channel": "DW.de",
+  "id": "WQPTTV",
+  "name": "WQPT-TV",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "ct/USMLI"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "eng"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Eurochannel.uk",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/UK"
+  ],
+  "timezones": [
+   "Europe/London"
+  ],
+  "languages": [
+   "eng",
+   "por",
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "HBO2LatinAmerica.us",
+  "id": "HD",
+  "name": "HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "r/LATAM"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "HBO2LatinAmerica.us",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "r/LATAM"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Historia.es",
+  "id": "HD",
+  "name": "HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "Historia.es",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "LoveNature.ca",
+  "id": "4K",
+  "name": "4K",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CA",
+   "c/RO"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "eng",
+   "ron"
+  ],
+  "format": "2160p"
+ },
+ {
+  "channel": "LoveNature.ca",
+  "id": "4KCzechia",
+  "name": "4K Czechia",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CZ",
+   "c/SK"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "ces"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "LoveNature.ca",
+  "id": "Czechia",
+  "name": "Czechia",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CZ",
+   "c/SK"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "ces"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "LoveNature.ca",
+  "id": "HD",
+  "name": "HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CA"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "eng",
+   "zho",
+   "tur",
+   "bul",
+   "ces",
+   "hun",
+   "rus",
+   "spa"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "LoveNature.ca",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CA"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "eng",
+   "zho",
+   "tur",
+   "bul",
+   "ces",
+   "hun",
+   "rus",
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Mega.cl",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CL"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "SonyChannel.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "Space.ar",
+  "id": "Alternate",
+  "name": "Alternate",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CL",
+   "c/VE"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Space.ar",
+  "id": "Brazil",
+  "name": "Brazil",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/BR"
+  ],
+  "timezones": [
+   "America/Sao_Paulo"
+  ],
+  "languages": [
+   "por"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Space.ar",
+  "id": "Mexico",
+  "name": "Mexico",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/MX"
+  ],
+  "timezones": [
+   "America/Mexico_City"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Space.ar",
+  "id": "Panregional",
+  "name": "Panregional",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CO",
+   "c/PE",
+   "c/EC",
+   "c/BO",
+   "r/CENAMER",
+   "r/CARIB"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "Space.ar",
+  "id": "South",
+  "name": "South",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/AR",
+   "c/PY",
+   "c/UY"
+  ],
+  "timezones": [
+   "America/New_York"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "StingrayClassica.ca",
+  "id": "HD",
+  "name": "HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/CA"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "eng",
+   "deu",
+   "spa",
+   "fra"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "StingrayClassica.ca",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CA"
+  ],
+  "timezones": [
+   "America/Toronto"
+  ],
+  "languages": [
+   "eng",
+   "deu",
+   "spa",
+   "fra"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "TVEInternacionalEurope.es",
+  "id": "HD",
+  "name": "HD",
+  "alt_names": [],
+  "is_main": false,
+  "broadcast_area": [
+   "c/ES",
+   "r/EUR"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa",
+   "eng"
+  ],
+  "format": "1080i"
+ },
+ {
+  "channel": "TVEInternacionalEurope.es",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/ES",
+   "r/EUR"
+  ],
+  "timezones": [
+   "Europe/Madrid"
+  ],
+  "languages": [
+   "spa",
+   "eng"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "UTV.cl",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/CL"
+  ],
+  "timezones": [
+   "America/Santiago"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "480i"
+ },
+ {
+  "channel": "XtremaAccion.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "XtremaCartoons.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "XtremaCineClasico.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ },
+ {
+  "channel": "XtremaTerror.ar",
+  "id": "SD",
+  "name": "SD",
+  "alt_names": [],
+  "is_main": true,
+  "broadcast_area": [
+   "c/AR"
+  ],
+  "timezones": [
+   "America/Argentina/Buenos_Aires"
+  ],
+  "languages": [
+   "spa"
+  ],
+  "format": "576i"
+ }
+]

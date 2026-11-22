@@ -1,0 +1,159 @@
+name: EPG GitHub Pages
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Python tests
+        run: python3 -m unittest discover -s pipeline/tests -v
+
+      - name: Configure production metadata URL
+        run: |
+          python3 -m pipeline.configure --profile production \
+            --repo-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          cfg = json.loads(Path("pipeline/config/roku.generated.json").read_text())
+          owner, repo = os.environ["GITHUB_REPOSITORY"].split("/", 1)
+          expected = f"https://{owner}.github.io/{repo}/real/"
+          assert cfg["profile"] == "production", cfg
+          assert cfg["metaBase"] == expected, (cfg["metaBase"], expected)
+          assert cfg["repo"] == os.environ["GITHUB_REPOSITORY"], cfg
+          app = Path("source/app_config.brs").read_text()
+          assert f'return "{expected}"' in app
+          print(f"production metadata URL: {expected}")
+          PY
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Clone EPG grabbers
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git "$RUNNER_TEMP/iptv-org-epg"
+
+      - name: Install EPG grabber dependencies
+        working-directory: ${{ runner.temp }}/iptv-org-epg
+        run: npm install --no-audit --no-fund
+
+      - name: Download XMLTV
+        run: |
+          python3 -m pipeline.fetch_epg \
+            --config pipeline/config/epg_sources.json \
+            --epg-repo "$RUNNER_TEMP/iptv-org-epg" \
+            --out-dir pipeline/out/xmltv \
+            --status pipeline/out/grabber-status.json \
+            --generated-config pipeline/out/sources.generated.json
+
+      - name: Build artifacts
+        run: |
+          python3 -m pipeline.build \
+            --config pipeline/out/sources.generated.json \
+            --out pipeline/out
+          python3 -m pipeline.validate --out pipeline/out/real
+
+      - name: Upload grabber diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-grabber-status
+          path: pipeline/out/grabber-status.json
+          if-no-files-found: ignore
+
+      - name: Fetch previous publication
+        continue-on-error: true
+        run: |
+          mkdir -p .pages-previous
+          base="$(python3 -c 'from pipeline.pages import pages_base; import os; print(pages_base(os.environ["GITHUB_REPOSITORY"]))')"
+          base="${base%/}"
+          curl -fsSL --retry 3 --max-time 30 "$base/latest.json" -o .pages-previous/latest.json.tmp && mv .pages-previous/latest.json.tmp .pages-previous/latest.json || true
+          curl -fsSL --retry 3 --max-time 30 "$base/coverage.json" -o .pages-previous/coverage.json.tmp && mv .pages-previous/coverage.json.tmp .pages-previous/coverage.json || true
+
+      - name: Prepare public artifact
+        run: |
+          python3 -m pipeline.publish \
+            --source pipeline/out/real \
+            --dest _site \
+            --previous .pages-previous
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Verify published endpoints
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          base = os.environ["PAGES_URL"].rstrip("/")
+          assert base.startswith("https://"), base
+
+          def fetch(name):
+              url = f"{base}/real/{name}"
+              with urllib.request.urlopen(url, timeout=30) as response:
+                  assert response.status == 200, (name, response.status)
+                  ctype = response.headers.get("Content-Type", "").split(";")[0].strip().lower()
+                  assert ctype == "application/json", (name, ctype)
+                  data = response.read()
+              value = json.loads(data)
+              cache[name] = value
+              return value
+
+          manifest = fetch("latest.json")
+          fetch("catalog.json")
+          fetch("coverage.json")
+          epg = manifest.get("epg") or {}
+          files = epg.get("files") if isinstance(epg.get("files"), list) else [epg]
+          for entry in files:
+              name = entry.get("file") if isinstance(entry, dict) else ""
+              assert name, entry
+              fetch(name)
+          assert (manifest.get("catalog") or {}).get("file") == "catalog.json"
+          assert (manifest.get("coverage") or {}).get("file") == "coverage.json"
+          print(f"published and verified: {base}/real/")
+          PY

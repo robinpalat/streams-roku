@@ -1,0 +1,5 @@
+<channels>
+  <channel site="gatotv.com" site_id="cinecanal_pacifico" lang="es" xmltv_id="Cinecanal.us@Pacific">Cinecanal Pacífico</channel>
+  <channel site="gatotv.com" site_id="historia_espana" lang="es" xmltv_id="Historia.es@SD">Historia España</channel>
+  <channel site="gatotv.com" site_id="space_panregional" lang="es" xmltv_id="Space.ar@Panregional">Space Panregional</channel>
+</channels>

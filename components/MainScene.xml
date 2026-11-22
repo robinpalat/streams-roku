@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+    <interface>
+        <field id="launchArgs" type="assocarray" onChange="onLaunchArgs" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/source/app_config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/util.brs" />
+    <script type="text/brightscript" uri="pkg:/source/m3u_parser.brs" />
+    <script type="text/brightscript" uri="pkg:/source/m3u_update.brs" />
+    <script type="text/brightscript" uri="pkg:/source/catalog.brs" />
+    <script type="text/brightscript" uri="pkg:/source/epg.brs" />
+    <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+    <children>
+        <Video id="video" translation="[0,0]" width="1280" height="720" />
+        <Label id="title" translation="[30,20]" width="1220" height="40" color="0xFFFFFFFF" />
+        <Rectangle id="panel" translation="[0,0]" width="1280" height="720" color="0x000000E0" visible="false">
+            <Label id="tabs" translation="[40,20]" width="1200" height="40" color="0x4DA3FFFF" />
+            <Label id="status" translation="[40,62]" width="1200" height="30" color="0x999999FF" />
+            <MarkupList id="list" translation="[40,100]" itemSize="[790,44]" itemSpacing="[0,4]" numRows="11" itemComponentName="ChannelItem" drawFocusFeedback="false" />
+            <Group id="epgCard" translation="[855,100]" visible="false">
+                <Rectangle id="epgBg" translation="[0,0]" width="390" height="560" color="0x20232AFF" />
+                <Poster id="epgLogo" translation="[20,18]" width="150" height="84" loadWidth="150" loadHeight="84" loadDisplayMode="scaleToFit" failedBitmapUri="pkg:/images/logo_placeholder.png" />
+                <Label id="epgName" translation="[20,112]" width="350" height="32" color="0xFFFFFFFF" />
+                <Label id="epgGroup" translation="[20,144]" width="350" height="24" color="0x999999FF" />
+                <Label id="epgNowTitle" translation="[20,180]" width="350" height="30" color="0x4DA3FFFF" />
+                <Label id="epgNowTime" translation="[20,212]" width="350" height="24" color="0xCCCCCCFF" />
+                <Label id="epgDesc" translation="[20,242]" width="350" height="90" color="0xDDDDDDFF" wrap="true" />
+                <Rectangle id="epgBarBg" translation="[20,340]" width="350" height="8" color="0x3A3F4BFF" />
+                <Rectangle id="epgBar" translation="[20,340]" width="0" height="8" color="0x4DA3FFFF" />
+                <Label id="epgNextTitle" translation="[20,360]" width="350" height="28" color="0x4DA3FFFF" />
+                <Label id="epgNextTime" translation="[20,390]" width="350" height="24" color="0xCCCCCCFF" />
+                <Label id="epgStatus" translation="[20,430]" width="350" height="70" color="0x999999FF" wrap="true" />
+            </Group>
+            <Label id="hint" translation="[40,672]" width="1200" height="30" color="0x999999FF" />
+        </Rectangle>
+        <EpgGrid id="guide" visible="false" />
+        <PlaylistTask id="task" />
+        <MetadataTask id="metaTask" />
+        <Timer id="titleTimer" repeat="false" duration="4" />
+        <Timer id="retryTimer" repeat="false" duration="2" />
+        <Timer id="seekTimer" repeat="false" duration="1.5" />
+        <Timer id="playlistTimer" repeat="true" duration="60" />
+        <Timer id="epgTimer" repeat="true" duration="30" />
+        <Timer id="metaTimer" repeat="true" duration="900" />
+    </children>
+</component>

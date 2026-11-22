@@ -1,0 +1,7 @@
+{
+  "name": "streams-roku-brs-tests",
+  "private": true,
+  "devDependencies": {
+    "brs": "0.45.0"
+  }
+}

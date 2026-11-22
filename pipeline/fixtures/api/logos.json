@@ -1,0 +1,6 @@
+[
+  {"channel":"A.us","feed":"SD","in_use":true,"format":"PNG","width":300,"height":120,"url":"https://example.invalid/a.png"},
+  {"channel":"B.us","feed":"SD","in_use":true,"format":"PNG","width":300,"height":120,"url":"https://example.invalid/b-from-logos.png"},
+  {"channel":"C.us","feed":null,"in_use":true,"format":"SVG","width":300,"height":120,"url":"https://example.invalid/c.svg"},
+  {"channel":"C.us","feed":"SD","in_use":true,"format":"JPEG","width":300,"height":120,"url":"https://example.invalid/c.jpg"}
+]

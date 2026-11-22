@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv date="20261121">
+  <channel id="A.us@SD"><display-name>Alpha</display-name></channel>
+  <channel id="B.us@SD"><display-name>Beta</display-name></channel>
+  <channel id="C.us@SD"><display-name>Gamma</display-name></channel>
+  <channel id="E.us@SD"><display-name>Echo</display-name></channel>
+  <channel id="F.us@SD"><display-name>Foxtrot</display-name></channel>
+  <programme start="20261121050000 +0000" stop="20261121060000 +0000" channel="A.us@SD"><title>Alpha Morning</title><desc>Morning news</desc><category>news</category></programme>
+  <programme start="20261121060000 +0000" stop="20261121070000 +0000" channel="A.us@SD"><title>Alpha Today</title><desc>Current program</desc><category>news</category></programme>
+  <programme start="20261121070000 +0000" stop="20261121083000 +0000" channel="A.us@SD"><title>Alpha Special</title><desc>Special</desc></programme>
+  <programme start="20261121083000 +0000" stop="20261122060000 +0000" channel="A.us@SD"><title>Alpha Long</title><desc>Long block</desc></programme>
+  <programme start="20261121053000 +0000" channel="C.us@SD"><title>Gamma Open</title><desc>No stop</desc></programme>
+  <programme start="20261121050000 +0000" stop="20261121063000 +0000" channel="E.us@SD"><title>Echo Live</title><desc>Live</desc></programme>
+  <programme start="20261121060000 +0000" stop="20261121070000 +0000" channel="F.us@SD"><title>Foxtrot Kids</title><desc>Kids</desc></programme>
+</tv>

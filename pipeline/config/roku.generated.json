@@ -1,0 +1,9 @@
+{
+  "profile": "production",
+  "repo": "robinpalat/streams-roku",
+  "pagesBase": "https://robinpalat.github.io/streams-roku/",
+  "metaPath": "/real/",
+  "metaBase": "https://robinpalat.github.io/streams-roku/real/",
+  "sourceMatch": "robinpalat/streams",
+  "artifactsDir": "pipeline/out"
+}

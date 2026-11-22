@@ -1,0 +1,7 @@
+[
+  {"id":"A.us","name":"Alpha TV","alt_names":["Alpha"],"network":"Alpha","country":"US","categories":["news"],"is_nsfw":false},
+  {"id":"B.us","name":"Beta TV","alt_names":[],"network":"Beta","country":"US","categories":["news"],"is_nsfw":false},
+  {"id":"C.us","name":"Gamma TV","alt_names":[],"network":"Gamma","country":"US","categories":["movies"],"is_nsfw":false},
+  {"id":"E.us","name":"Echo TV","alt_names":[],"network":"Echo","country":"US","categories":["sports"],"is_nsfw":false},
+  {"id":"F.us","name":"Foxtrot TV","alt_names":[],"network":"Foxtrot","country":"US","categories":["kids"],"is_nsfw":false}
+]

@@ -1,0 +1,7 @@
+[
+  {"channel":"A.us","id":"SD","name":"SD","is_main":true,"timezones":["America/New_York"],"languages":["eng"],"format":"480i"},
+  {"channel":"B.us","id":"SD","name":"SD","is_main":true,"timezones":["America/New_York"],"languages":["eng"],"format":"480i"},
+  {"channel":"C.us","id":"SD","name":"SD","is_main":true,"timezones":["America/New_York"],"languages":["eng"],"format":"480i"},
+  {"channel":"E.us","id":"SD","name":"SD","is_main":true,"timezones":["America/New_York"],"languages":["eng"],"format":"480i"},
+  {"channel":"F.us","id":"SD","name":"SD","is_main":true,"timezones":["America/New_York"],"languages":["eng"],"format":"480i"}
+]

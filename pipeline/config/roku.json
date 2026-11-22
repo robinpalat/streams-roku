@@ -1,0 +1,10 @@
+{
+  "host": "",
+  "port": 8001,
+  "metaPath": "/real/",
+  "sourceMatch": "robinpalat/streams",
+  "artifactsDir": "pipeline/out",
+  "production": {
+    "repoUrl": ""
+  }
+}

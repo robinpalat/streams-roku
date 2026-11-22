@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "fixture",
+      "name": "Local fixture source",
+      "m3u": "../fixtures/streams.m3u",
+      "epg": [
+        "../fixtures/guide.xml"
+      ],
+      "data": {
+        "channels": "../fixtures/api/channels.json",
+        "feeds": "../fixtures/api/feeds.json",
+        "logos": "../fixtures/api/logos.json",
+        "aliases": "../fixtures/aliases.json"
+      },
+      "failed": []
+    },
+    {
+      "id": "real",
+      "name": "robinpalat/streams + EPG real local",
+      "m3u": "../real/streams.m3u",
+      "epg": [
+        "../real/guide-mi.xml",
+        "../real/guide-gatotv.xml",
+        "../real/guide-imjh.xml",
+        "../real/guide-teleboy.xml",
+        "../real/guide-extra.xml"
+      ],
+      "data": {
+        "channels": "../data/real/channels.json",
+        "feeds": "../data/real/feeds.json",
+        "logos": "../data/real/logos.json",
+        "aliases": null
+      },
+      "failed": [],
+      "errors": [
+        {
+          "site": "distro.tv",
+          "channel": "CinePride.us@SD",
+          "error": "getaddrinfo ENOTFOUND tv.jsrdn.com",
+          "result": "other sources used"
+        }
+      ]
+    }
+  ]
+}

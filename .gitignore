@@ -1,0 +1,16 @@
+# Generated/local artifacts: never commit playlists, stream URLs or diagnostics.
+pipeline/out/*
+pipeline/real/streams.m3u
+pipeline/real/guide-*.xml
+!pipeline/out/.gitkeep
+/out/
+_site/
+.pages-previous/
+streams-roku.zip
+.roku-deploy-staging/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+pipeline/server/roku-epg.service.generated
