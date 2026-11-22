@@ -58,6 +58,7 @@ def write_json(path: Path, value) -> None:
 
 def fetch(epg_config: dict, sources_config: dict, epg_repo: Path, out_dir: Path,
           source_id: str = "real", runner=run_grabber) -> tuple[dict, dict, bool]:
+    out_dir = Path(out_dir).resolve()
     sources = sources_config.get("sources") or []
     source = next((s for s in sources if str(s.get("id")) == source_id), None)
     if source is None:

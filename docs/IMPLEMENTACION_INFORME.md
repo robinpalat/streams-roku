@@ -174,7 +174,7 @@ En la app: **Fuentes** -> enfocar fuente -> **FF** -> URL base de metadatos
 
 | Suite | Resultado |
 |---|---|
-| `pipeline/tests` | 63 aprobadas, 0 fallidas |
+| `pipeline/tests` | 64 aprobadas, 0 fallidas |
 | `tests/brs` | 62 aprobadas, 0 fallidas, 6 pendientes de hardware/simulación |
 | BrighterScript compile | 0 errores |
 | Paquete BrighterScript | 29 archivos, ~2,0 MB |
@@ -388,7 +388,7 @@ por lo que fue la opción más estable y con menor impacto en la app.
 - Matemática `FitLogoInBox`: cuadrado, horizontal ancho, vertical, pequeño e
   inválido; todos contenidos y centrados.
 - Compilación BrighterScript: 0 errores.
-- Suite local: 63 pruebas Python, 62 aserciones BrightScript, 0 fallos.
+- Suite local: 64 pruebas Python, 62 aserciones BrightScript, 0 fallos.
 
 ### Límite pendiente
 

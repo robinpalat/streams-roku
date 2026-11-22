@@ -157,7 +157,7 @@ favoritos ni navegación. La app sigue usando el mismo contrato de metadatos.
 
 | Prueba | Resultado |
 |---|---|
-| `python3 -m unittest discover -s pipeline/tests` | 63 aprobadas, 0 fallidas |
+| `python3 -m unittest discover -s pipeline/tests` | 64 aprobadas, 0 fallidas |
 | BRS (`tests/run_brs_tests.sh`) | 62 aserciones, 0 fallos, 6 pendientes |
 | BrighterScript compile (`bsc`) | 0 errores |
 | `pipeline.validate --out pipeline/out/real` | OK |

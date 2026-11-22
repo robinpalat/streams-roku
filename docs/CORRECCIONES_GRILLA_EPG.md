@@ -121,7 +121,7 @@ navegación existente no fueron reescritos.
 
 | Prueba | Resultado |
 |---|---|
-| Python pipeline + static grid | 63 aprobadas, 0 fallidas |
+| Python pipeline + static grid | 64 aprobadas, 0 fallidas |
 | BrightScript puro (`brs`) | 62 aserciones, 0 fallidas, 6 pendientes |
 | BrighterScript compile | 0 errores |
 | Paquete Roku | 29 archivos, 2.031.727 bytes |

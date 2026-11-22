@@ -63,7 +63,7 @@ Ejecutadas sin modificar el proyecto:
 
 | Suite | Resultado |
 |---|---|
-| `python3 -m unittest discover -s pipeline/tests` | 63 pruebas OK |
+| `python3 -m unittest discover -s pipeline/tests` | 64 pruebas OK |
 | `tests/run_brs_tests.sh` (con `brs`) | 62 aserciones, 0 fallos, 6 pendientes |
 | `bsc --create-package false --diagnostic-level error` | 0 errores |
 | Paquete Roku | ~2,0 MB, 29 archivos |

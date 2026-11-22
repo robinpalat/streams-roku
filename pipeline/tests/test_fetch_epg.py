@@ -46,6 +46,22 @@ class FetchEpgTests(unittest.TestCase):
             self.assertTrue(epg[0].endswith("guide-ok.xml"))
             self.assertTrue(generated["sources"][0]["errors"])
 
+    def test_relative_output_directory_is_resolved(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            cfg = self.config(tmp)
+            seen = []
+            def runner(repo, channels, output, days, timeout):
+                seen.append(output)
+                output.parent.mkdir(parents=True, exist_ok=True)
+                output.write_text("<tv/>")
+                return subprocess.CompletedProcess([], 0, "", "")
+            fetch(cfg, self.sources(tmp), tmp, Path("pipeline/out/fetch-relative-test"), runner=runner)
+            self.assertTrue(seen and seen[0].is_absolute(), seen)
+            self.assertEqual(seen[0].parent, (Path.cwd() / "pipeline/out/fetch-relative-test").resolve())
+            import shutil
+            shutil.rmtree(Path.cwd() / "pipeline/out/fetch-relative-test", ignore_errors=True)
+
     def test_public_m3u_override_is_used(self):
         with tempfile.TemporaryDirectory() as tmp:
             tmp = Path(tmp)

@@ -30,7 +30,7 @@ def main() -> int:
     if not args.sites and not args.channels:
         print("provide --sites or --channels", file=sys.stderr)
         return 2
-    out = Path(args.out)
+    out = Path(args.out).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
 
     command = ["npm", "run", "grab", "---", f"--output={out}", f"--days={args.days}", f"--timeout={args.timeout}"]

@@ -298,7 +298,7 @@ cuatro endpoints después del despliegue.
 
 | Prueba | Resultado |
 |---|---|
-| Python pipeline | 63 pruebas, 0 fallidas |
+| Python pipeline | 64 pruebas, 0 fallidas |
 | BrightScript puro | 62 aserciones, 0 fallidas, 6 pendientes |
 | BrighterScript | 0 errores |
 | Build/validate/publicación local real | OK |

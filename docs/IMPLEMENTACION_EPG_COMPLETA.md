@@ -207,7 +207,7 @@ usan botones numéricos ni una URL manual.
 
 | Prueba | Resultado |
 |---|---|
-| `python3 -m unittest discover -s pipeline/tests` | 63 aprobadas, 0 fallidas |
+| `python3 -m unittest discover -s pipeline/tests` | 64 aprobadas, 0 fallidas |
 | BRS (`tests/run_brs_tests.sh`) | 62 aprobadas, 0 fallidas, 6 pendientes de hardware |
 | BrighterScript compile | 0 errores |
 | Paquete Roku | 29 archivos, 2.031.727 bytes |
